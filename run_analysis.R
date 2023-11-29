@@ -66,4 +66,5 @@ comb$activity <- as.factor(comb$activity)
 comb_mean <- comb %>% group_by(subject, activity) %>% summarize_all(mean)
 
 # write resultant tidy data set to csv file
-write.csv(comb_mean, "./data/mean_by_subject_and_activity.csv")
+write.csv(comb_mean, "./mean_by_subject_and_activity.csv")
+write.table(comb_mean, "./mean_by_subject_and_activity.txt", row.name = FALSE)
