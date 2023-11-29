@@ -1,2 +1,2 @@
-# gacd
-Coursera - JHU Getting and Cleaning Data Project
+This project produces a tidy data set which combines the training and test data sets from the "Human Activity Recognition Using Smartphones" project (https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones) and calculates the mean of each "mean" and "standard deviation" feature of the orignial data set.  The resultant data set adds feature columns for the subject id and descriptive activity label as well as descriptive column labels for each accelerometer and gyroscope feature.
+
